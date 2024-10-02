@@ -35,3 +35,11 @@
 [2024-10-02 16:09:24] [INFO] Rover turned left.
 [2024-10-02 16:09:24] [INFO] Rover moved forward.
 [2024-10-02 16:09:24] [INFO] Generating status report.
+[2024-10-02 16:17:35] [INFO] Grid created with dimensions 10x10
+[2024-10-02 16:20:42] [INFO] Grid created with dimensions 10x10
+[2024-10-02 16:21:12] [INFO] Adding command to the list.
+[2024-10-02 16:21:13] [INFO] Adding command to the list.
+[2024-10-02 16:21:13] [INFO] Executing commands.
+[2024-10-02 16:21:13] [INFO] Rover moved forward.
+[2024-10-02 16:21:13] [INFO] Rover moved forward.
+[2024-10-02 16:21:13] [INFO] Generating status report.

@@ -15,6 +15,6 @@ public class StatusReport {
     @Override
     public String toString() {
         logger.info("Generating status report.");
-        return "Rover is at (" + x + ", " + y + ") facing " + direction;
+        return "Rover is at (" + x + ", " + y + ") facing " + direction.getFullName();
     }
 }

@@ -19,7 +19,7 @@ public class Main {
 
 
         // Input Obstacles
-        int numObstacles = getPositiveIntegerInput(scanner, "Enter the number of obstacles: ");
+        int numObstacles = getObstaclesCount(scanner, "Enter the number of obstacles: ");
         for (int i = 0; i < numObstacles; i++) {
             int ox = getCoordinateInput(scanner, width, "Enter obstacle " + (i + 1) + " x-coordinate: ");
             int oy = getCoordinateInput(scanner, height, "Enter obstacle " + (i + 1) + " y-coordinate: ");
@@ -83,6 +83,24 @@ public class Main {
                 scanner.next(); // Clear invalid input
                 value = -1; // Reset value to ensure loop continues
             }
+        } while (value <= 0);
+        return value;
+    }
+
+    private static int getObstaclesCount(Scanner scanner, String prompt) {
+        int value;
+        do {
+            System.out.print(prompt);
+            if (scanner.hasNextInt()) {
+                value = scanner.nextInt();
+                if (value < 0) {
+                    System.out.println("Error: Value must be a non-negative integer. Please try again.");
+                }
+            } else {
+                System.out.println("Error: Invalid input. Please enter a valid integer.");
+                scanner.next(); // Clear invalid input
+                value = -1; // Reset value to ensure loop continues
+            }
         } while (value < 0);
         return value;
     }
@@ -140,7 +158,7 @@ public class Main {
     public static int getNumberOfCommands(Scanner scanner) {
         int numCommands;
         do {
-            System.out.print("Enter the number of commands (must be non-negative): ");
+            System.out.print("Enter the number of commands: ");
             while (!scanner.hasNextInt()) {
                 System.out.println("Error: Please enter a valid integer.");
                 scanner.next(); // Clear invalid input
