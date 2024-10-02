@@ -11,6 +11,7 @@ Welcome to the Mars Rover Simulation project! This Java-based application simula
 - *Rover Commands*: Supports commands to move forward, turn left, and turn right.
 - *Obstacle Detection*: The Rover detects obstacles and records their positions.
 - *Status Report*: The Rover provides status reports on its current position and direction.
+- *Logging*: Captures all rover movements, commands, and obstacle encounters in a dedicated log file for tracking and debugging.
 - *Design Patterns*: Utilizes Command Pattern, Composite Pattern, and other OOP principles for a clean and maintainable codebase.
 
 ## Key Components
@@ -30,6 +31,11 @@ Encapsulates movement commands (Move, TurnLeft, TurnRight) using the Command Pat
 ### Obstacles
 
 Represents obstacles on the grid. The Rover records any encountered obstacles during navigation.
+
+### Utils
+
+Captures and stores all significant events in a dedicated log file to assist in tracking the Rover’s activity and troubleshooting.
+
 
 ## Design Patterns
 
