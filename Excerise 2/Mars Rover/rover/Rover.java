@@ -1,12 +1,12 @@
 package rover;
 
 import grid.Grid;
-import java.util.logging.Logger;
+import utils.*;
 import java.util.HashSet;
 import java.util.Set;
 
 public class Rover {
-    private static final Logger logger = Logger.getLogger(Grid.class.getName());
+    Logger logger = Logger.getInstance();    
 
     private int x;
     private int y;

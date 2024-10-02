@@ -2,11 +2,10 @@ package commands;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 import rover.Rover;
-
+import utils.*;
 public class CommandInvoker {
-    private static final Logger logger = Logger.getLogger(CommandInvoker.class.getName());
+    static Logger logger = Logger.getInstance();
     private static List<Command> commands = new ArrayList<>();
 
     public void addCommand(Command command) {

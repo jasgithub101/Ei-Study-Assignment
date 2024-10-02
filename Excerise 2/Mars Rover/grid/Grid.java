@@ -1,10 +1,10 @@
 package grid;
-import java.util.logging.Logger;
 import java.util.HashSet;
 import java.util.Set;
+import utils.*;
 
 public class Grid implements GridComponent {
-    private static final Logger logger = Logger.getLogger(Grid.class.getName());
+    Logger logger = Logger.getInstance();    
     private int width;
     private int height;
     private Set<GridComponent> obstacles;
@@ -31,7 +31,7 @@ public class Grid implements GridComponent {
     public boolean isWithinBounds(int x, int y) {
         boolean result = x >= 0 && x < width && y >= 0 && y < height;
         if(!result) {
-            logger.severe("Coordinates (" + x + ", " + y + ") are out of bounds");
+            logger.warn("Coordinates (" + x + ", " + y + ") are out of bounds");
         }
         return result;
 

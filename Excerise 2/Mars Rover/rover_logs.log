@@ -1,0 +1,37 @@
+[2024-10-02 16:01:39] [INFO] Grid created with dimensions 10x10
+[2024-10-02 16:01:46] [INFO] Obstacle added at (2, 2)
+[2024-10-02 16:01:47] [INFO] Obstacle added at (3, 5)
+[2024-10-02 16:02:10] [INFO] Adding command to the list.
+[2024-10-02 16:02:11] [INFO] Adding command to the list.
+[2024-10-02 16:02:12] [INFO] Adding command to the list.
+[2024-10-02 16:02:12] [INFO] Adding command to the list.
+[2024-10-02 16:02:13] [INFO] Adding command to the list.
+[2024-10-02 16:02:13] [INFO] Adding command to the list.
+[2024-10-02 16:02:13] [INFO] Executing commands.
+[2024-10-02 16:02:13] [INFO] Rover moved forward.
+[2024-10-02 16:02:13] [INFO] Rover moved forward.
+[2024-10-02 16:02:13] [INFO] Rover turned right.
+[2024-10-02 16:02:13] [INFO] Rover moved forward.
+[2024-10-02 16:02:13] [INFO] Rover turned left.
+[2024-10-02 16:02:13] [INFO] Rover moved forward.
+[2024-10-02 16:02:13] [INFO] Generating status report.
+[2024-10-02 16:06:50] [INFO] Grid created with dimensions 10x10
+[2024-10-02 16:06:53] [INFO] Obstacle added at (2, 2)
+[2024-10-02 16:06:55] [INFO] Obstacle added at (3, 5)
+[2024-10-02 16:08:54] [INFO] Grid created with dimensions 10x10
+[2024-10-02 16:08:57] [INFO] Obstacle added at (2, 2)
+[2024-10-02 16:08:58] [INFO] Obstacle added at (3, 5)
+[2024-10-02 16:09:20] [INFO] Adding command to the list.
+[2024-10-02 16:09:20] [INFO] Adding command to the list.
+[2024-10-02 16:09:21] [INFO] Adding command to the list.
+[2024-10-02 16:09:23] [INFO] Adding command to the list.
+[2024-10-02 16:09:24] [INFO] Adding command to the list.
+[2024-10-02 16:09:24] [INFO] Adding command to the list.
+[2024-10-02 16:09:24] [INFO] Executing commands.
+[2024-10-02 16:09:24] [INFO] Rover moved forward.
+[2024-10-02 16:09:24] [INFO] Rover moved forward.
+[2024-10-02 16:09:24] [INFO] Rover turned right.
+[2024-10-02 16:09:24] [INFO] Rover moved forward.
+[2024-10-02 16:09:24] [INFO] Rover turned left.
+[2024-10-02 16:09:24] [INFO] Rover moved forward.
+[2024-10-02 16:09:24] [INFO] Generating status report.

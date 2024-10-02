@@ -137,19 +137,23 @@ public class Main {
         return startDirection;
     }
 
-    private static int getNumberOfCommands(Scanner scanner) {
+    public static int getNumberOfCommands(Scanner scanner) {
         int numCommands;
-        System.out.print("Enter the number of commands: ");
-        numCommands = scanner.nextInt();
-        
-        while (numCommands < 0) {
-            System.out.println("Error: Number of commands cannot be negative. Please try again.");
-            System.out.print("Enter number of commands: ");
+        do {
+            System.out.print("Enter the number of commands (must be non-negative): ");
+            while (!scanner.hasNextInt()) {
+                System.out.println("Error: Please enter a valid integer.");
+                scanner.next(); // Clear invalid input
+            }
             numCommands = scanner.nextInt();
-        }
+            if (numCommands < 0) {
+                System.out.println("Error: Number of commands cannot be negative. Please try again.");
+            }
+        } while (numCommands < 0);
         
         return numCommands;
     }
+    
 
      // Function to get the list of commands from the user
      private static void getCommands(Scanner scanner, int numCommands) {

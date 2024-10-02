@@ -1,7 +1,7 @@
 package rover;
-import java.util.logging.Logger;
+import utils.*;
 public class StatusReport {
-    private static final Logger logger = Logger.getLogger(StatusReport.class.getName());
+    Logger logger = Logger.getInstance();    
     private int x;
     private int y;
     private Direction direction;
